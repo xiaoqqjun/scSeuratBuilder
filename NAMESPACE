@@ -1,0 +1,9 @@
+# Main function
+export(create_seurat_obj)
+
+# Detection functions
+export(detect_data_structure)
+export(validate_metadata_file)
+
+# Gene sync
+export(detect_gene_id_type)
