@@ -1,0 +1,15 @@
+# Main function
+export(create_seurat_obj)
+export(create_seurat_obj_v2)
+
+# Detection functions
+export(detect_data_structure)
+export(validate_metadata_file)
+
+# Gene sync
+export(detect_gene_id_type)
+
+# 10X file checking
+export(check_10x_triplets)
+export(check_seurat_consistency)
+export(batch_check_10x)

@@ -1,0 +1,24 @@
+Package: scSeuratBuilder
+Type: Package
+Title: Intelligent Seurat Object Builder with Strict Metadata Validation
+Version: 2.2.1
+Date: 2026-03-18
+Author: xiaoqqjun
+Maintainer: xiaoqqjun <xiaoqqjun@sina.com>
+Description: Intelligent pipeline for building Seurat objects with mandatory metadata validation. Supports three data structures: subfolder-per-sample, direct files, and merged objects. Integrated geneSync support for gene name synchronization. Includes 10X triplet file validation and per-sample processing with resumability.
+License: MIT
+Encoding: UTF-8
+Imports:
+    Seurat,
+    Matrix,
+    data.table,
+    readr,
+    readxl,
+    magrittr,
+    geneSync,
+    hdf5r
+Depends:
+    R (>= 4.0.0)
+URL: https://github.com/xiaoqqjun/scSeuratBuilder
+BugReports: https://github.com/xiaoqqjun/scSeuratBuilder/issues
+RoxygenNote: 7.3.1
